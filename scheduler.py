@@ -230,7 +230,7 @@ if __name__ == '__main__':
                 dates.append('NONE')
             line = [member.name]
             for date in dates:
-                line.append(date)
+                line.append(str(date))
             writer.writerow(line)
 
 print('THESE PEOPLE NEED NIGHTS ADDED MANUALLY')
